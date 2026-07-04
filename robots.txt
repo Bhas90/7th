@@ -1,0 +1,13 @@
+# =====================================================
+# 7th Heaven Cakes
+# https://yourdomain.com
+# =====================================================
+
+User-agent: *
+
+Allow: /
+
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+Sitemap: https://yourdomain.com/sitemap.xml

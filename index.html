@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>7th Heaven Cakes Rugby | Order Cakes on WhatsApp</title>
+  <meta name="description" content="Order birthday cakes, graduation cakes, corporate cakes and school event treats from 7th Heaven Cakes Rugby. Call or WhatsApp to book today." />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json">
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/tracking.js"></script>
+    <script src="assets/js/whatsapp.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <meta name="theme-color" content="#d81b60">
+    <link rel="apple-touch-icon" href="assets/images/icons/icon-192.png">
+    <meta name="msapplication-TileColor" content="#d81b60">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <p class="brand">7th Heaven Cakes</p>
+        <h1>Fresh Cakes for Every Sweet Celebration</h1>
+        <p class="hero-text">
+          Birthday cakes, graduation cakes, corporate orders and school event treats made fresh with love.
+        </p>
+
+        <div class="hero-tags">
+          <span>Freshly Baked</span>
+          <span>Custom Designs</span>
+          <span>Easy Booking</span>
+        </div>
+
+        <button class="primary-btn" onclick="openWhatsApp('General Cake Order')">
+          Order on WhatsApp
+        </button>
+      </div>
+    </header>
+
+    <nav class="quick-nav">
+      <a href="#cakes" onclick="trackClick('quick_nav_click','Cakes')">Cakes</a>
+      <a href="#corporate" onclick="trackClick('quick_nav_click','Corporate')">Corporate</a>
+      <a href="#schools" onclick="trackClick('quick_nav_click','Schools')">Schools</a>
+      <a href="#why" onclick="trackClick('quick_nav_click','Why Us')">Why Us</a>
+      <a href="#faq" onclick="trackClick('quick_nav_click','Why Us')">Faq's</a>
+      <a href="#store" onclick="trackClick('quick_nav_click','Why Us')">Visit Store</a>
+      <a href="#offers" onclick="trackClick('quick_nav_click','Why Us')">Offers</a>
+    </nav>
+
+    <section class="rating-bar">
+      ⭐⭐⭐⭐⭐ Fresh cakes for birthdays, parties, offices & school events
+    </section>
+
+    <section id="cakes" class="section">
+      <h2>Shop by Occasion</h2>
+
+      <div class="grid">
+        <button class="item-card" onclick="openWhatsApp('Birthday Cake')">
+          <span>🎂</span>
+          <h3>Birthday Cakes</h3>
+          <p>Colourful, fresh and customised for every age.</p>
+        </button>
+
+        <button class="item-card" onclick="openWhatsApp('Graduation Cake')">
+          <span>🎓</span>
+          <h3>Graduation Cakes</h3>
+          <p>Perfect cakes for proud graduation moments.</p>
+        </button>
+
+        <button class="item-card" onclick="openWhatsApp('Anniversary Cake')">
+          <span>💍</span>
+          <h3>Anniversary Cakes</h3>
+          <p>Sweet designs to celebrate love and memories.</p>
+        </button>
+
+        <button class="item-card" onclick="openWhatsApp('Custom Cake')">
+          <span>🎨</span>
+          <h3>Custom Cakes</h3>
+          <p>Theme cakes designed specially for your event.</p>
+        </button>
+      </div>
+    </section>
+
+    <section id="corporate" class="section">
+      <div class="feature-card">
+        <h2>Corporate Orders</h2>
+        <p>
+          Fresh cakes, cupcakes and desserts for office parties, client gifts,
+          staff birthdays, team celebrations and company events.
+        </p>
+
+        <div class="pill-grid">
+          <span>Office Parties</span>
+          <span>Client Gifts</span>
+          <span>Team Events</span>
+          <span>Staff Birthdays</span>
+        </div>
+
+        <button class="primary-btn small" onclick="openWhatsApp('Corporate Cake Order')">
+          Corporate Enquiry
+        </button>
+      </div>
+    </section>
+
+    <section id="schools" class="section">
+      <div class="feature-card school">
+        <h2>School Events & Celebrations</h2>
+        <p>
+          We attend and participate in school fairs, graduation days, sports days,
+          annual functions and family celebration events with fresh cakes and treats.
+        </p>
+
+        <div class="pill-grid">
+          <span>School Fairs</span>
+          <span>Graduations</span>
+          <span>Sports Days</span>
+          <span>Annual Events</span>
+        </div>
+
+        <button class="primary-btn small" onclick="openWhatsApp('School Event Enquiry')">
+          School Event Enquiry
+        </button>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <h2>Why Choose 7th Heaven?</h2>
+
+      <div class="grid">
+        <div class="item-card static">
+          <span>🍰</span>
+          <h3>Freshly Baked</h3>
+          <p>Made fresh for your special occasion.</p>
+        </div>
+
+        <div class="item-card static">
+          <span>✨</span>
+          <h3>Custom Designs</h3>
+          <p>Personalised cakes for every theme.</p>
+        </div>
+
+        <div class="item-card static">
+          <span>🏢</span>
+          <h3>Event Orders</h3>
+          <p>Perfect for homes, offices and schools.</p>
+        </div>
+
+        <div class="item-card static">
+          <span>💬</span>
+          <h3>Easy Booking</h3>
+          <p>Order quickly through WhatsApp or call.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section flavours">
+      <h2>Popular Flavours</h2>
+
+      <div class="flavour-list">
+        <button onclick="openWhatsApp('Chocolate Cake')">Chocolate</button>
+        <button onclick="openWhatsApp('Vanilla Cake')">Vanilla</button>
+        <button onclick="openWhatsApp('Red Velvet Cake')">Red Velvet</button>
+        <button onclick="openWhatsApp('Black Forest Cake')">Black Forest</button>
+        <button onclick="openWhatsApp('Oreo Cake')">Oreo</button>
+        <button onclick="openWhatsApp('Lotus Biscoff Cake')">Lotus Biscoff</button>
+      </div>
+    </section>
+
+    <section class="offer">
+      <h2>Need a Cake Today?</h2>
+      <p>Message us now on WhatsApp and our team will help you choose the perfect cake.</p>
+      <button onclick="openWhatsApp('Urgent Cake Order')">Enquire Now</button>
+    </section>
+
+
+<section id="delivery" class="section">
+  <h2>Delivery & Collection</h2>
+
+  <div class="grid">
+    <div class="item-card static">
+      <span>🚗</span>
+      <h3>Collection</h3>
+      <p>Easy cake collection available.</p>
+    </div>
+
+    <div class="item-card static">
+      <span>🏠</span>
+      <h3>Local Delivery</h3>
+      <p>Local delivery subject to availability.</p>
+    </div>
+
+    <div class="item-card static">
+      <span>📅</span>
+      <h3>Pre-Orders</h3>
+      <p>Book your cakes in advance.</p>
+    </div>
+
+    <div class="item-card static">
+      <span>⚡</span>
+      <h3>Urgent Orders</h3>
+      <p>Last-minute orders where possible.</p>
+    </div>
+  </div>
+</section>
+
+<section id="payment" class="section">
+  <h2>Payment Options</h2>
+
+  <div class="pill-grid">
+    <span>Cash</span>
+    <span>Card</span>
+    <span>Contactless</span>
+    <span>Online Payment</span>
+  </div>
+</section>
+
+<section id="store" class="section">
+  <div class="contact-card">
+    <h2>Visit / Contact Store</h2>
+    <p>
+  <strong>7th Heaven Cakes, Ashford</strong><br>
+  Collection and local delivery available for birthdays, graduations, anniversaries, corporate events and school celebrations.
+</p>
+
+    <p>
+      Opening Hours: 10:00 AM – 7:00 PM
+    </p>
+
+    <div class="contact-actions">
+      <a href="tel:+447359778589" onclick="trackClick('store_call_click','Store Call')">Call Store</a>
+
+      <button onclick="openWhatsApp('Store Enquiry')">WhatsApp Store</button>
+
+      <a href="https://maps.google.com/?q=7th+Heaven+Cakes+Ashford"
+         target="_blank"
+         onclick="trackClick('directions_click','Store Directions')">
+        Directions
+      </a>
+    </div>
+    
+  </div>
+</section>
+
+<section id="faq" class="section faq-section">
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you make custom cakes?</button>
+    <div class="faq-answer">Yes, we make custom cakes for birthdays, graduations, anniversaries, corporate events and school events.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you accept corporate orders?</button>
+    <div class="faq-answer">Yes, we provide cakes, cupcakes and desserts for offices, company events, staff birthdays and client gifting.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you participate in school events?</button>
+    <div class="faq-answer">Yes, we can attend and participate in school fairs, graduations, sports days and annual events.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Can I order on WhatsApp?</button>
+    <div class="faq-answer">Yes, you can order directly on WhatsApp using the buttons on this page.</div>
+  </div>
+</section>
+   <section id="offers" class="section">
+  <div class="feature-card offer-card">
+    <h2>Current Offers</h2>
+    <p>Special cake offers available for birthdays, graduations, corporate orders and school events.</p>
+
+    <button class="primary-btn small" onclick="openWhatsApp('Current Offers')">
+      Ask for Today’s Offers
+    </button>
+  </div>
+</section>
+
+    <footer>
+      <strong>7th Heaven Cakes</strong><br />
+      Birthday Cakes • Graduation Cakes • Corporate Orders • School Events<br />
+      Call / WhatsApp: +44 7359 778589<br />
+      Fresh cakes for every sweet celebration.
+    </footer>
+
+  </main>
+
+  <div class="sticky-actions">
+  <a href="tel:+447359778589" onclick="trackClick('sticky_call_click','Sticky Call')">Call</a>
+
+  <button onclick="openWhatsApp('Sticky WhatsApp Enquiry')">WhatsApp</button>
+
+  <a href="https://maps.google.com/?q=7th+Heaven+Cakes+Ashford"
+     target="_blank"
+     onclick="trackClick('directions_click','Sticky Directions')">
+    Directions
+  </a>
+</div>
+
+  <script src="assets/js/tracking.js"></script>
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/app.js"></script>
+<button id="scrollTopBtn" title="Back to Top">
+    ↑
+</button>
+</body>
+</html>
